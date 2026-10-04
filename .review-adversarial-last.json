@@ -1,0 +1,8 @@
+{
+  "phase1_findings": 0,
+  "phase3_reject_count": 0,
+  "phase4_pass": true,
+  "remaining_red": 0,
+  "remaining_yellow": 0,
+  "note": "ai-trader-quant-kit v1.0.0 初次发布 — plugin 初始化阶段无历史 PR 可 review。后续 PR 合入将强制走 review-adversarial。"
+}
