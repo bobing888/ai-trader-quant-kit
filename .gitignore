@@ -1,0 +1,23 @@
+# Git / Cursor IDE 排除
+.git/
+.DS_Store
+*.log
+node_modules/
+__pycache__/
+.pyc
+*.pyo
+
+# 本地开发痕迹
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 测试产物
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Cursor plugin local override (避免 symlink 冲突)
+.cursor/plugins/local/

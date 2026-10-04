@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "enforced-gate.sh",
+        "matcher": "git (push|merge).*(main|release/)",
+        "failClosed": true
+      }
+    ]
+  }
+}

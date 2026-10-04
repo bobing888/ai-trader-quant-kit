@@ -1,0 +1,39 @@
+{
+  "name": "ai-trader-quant-kit",
+  "displayName": "AI Trader Quant Kit",
+  "version": "1.0.0",
+  "description": "公司级 AI 量化交易 skill 套件：对抗 review + 强门禁 + 预测 baseline + ML 校准。基于 Cursor 官方 plugin/marketplace 规范（MIT, 9671 stars），直接搬运最强实现。",
+  "author": {
+    "name": "AI Trader Team",
+    "email": "team@ai-trader.local"
+  },
+  "homepage": "https://github.com/your-org/ai-trader-quant-kit",
+  "repository": "https://github.com/your-org/ai-trader-quant-kit",
+  "license": "MIT",
+  "logo": "./assets/logo.png",
+  "keywords": [
+    "ai-trader",
+    "quant",
+    "crypto",
+    "signals",
+    "review-adversarial",
+    "enforced-gate",
+    "ml-calibration",
+    "subagents"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "trading",
+    "quant",
+    "review",
+    "quality",
+    "shipping",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json",
+  "minClientVersions": {
+    "cursor": "1.0.0"
+  }
+}
