@@ -26,15 +26,15 @@ cd ~/.cursor/plugins/ai-trader-quant-kit
 #    建议名: ai-trader-quant-kit
 
 # 2. 推上去
-git remote add origin git@github.com:your-org/ai-trader-quant-kit.git
-git push -u origin main --tags
+git remote add origin git@github.com:bobing888/ai-trader-quant-kit.git
+    git push -u origin main --tags
 
 # 3. 团队成员安装（任选一种）
 # 方式 A: 直接 git clone
-#   git clone https://github.com/your-org/ai-trader-quant-kit.git ~/.cursor/plugins/ai-trader-quant-kit
+#   git clone https://github.com/bobing888/ai-trader-quant-kit.git ~/.cursor/plugins/ai-trader-quant-kit
 
-# 方式 B: marketplace（需要建 marketplace repo，参考 cursor 官方 spec）
-#   /add-plugin https://github.com/your-org/ai-trader-marketplace
+# 方式 B: marketplace（已发布：bobing888/ai-trader-marketplace）
+#   /add-plugin https://github.com/bobing888/ai-trader-marketplace
 ```
 
 ## v1.0.0 自检报告
